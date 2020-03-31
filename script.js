@@ -6,7 +6,7 @@ var endPage = "end.html"
 
 // Timer
 $(function () {
-    var time = 300;
+    var time = 600;
 
     function redirect() {
         setTimeout(redirect, 1000);

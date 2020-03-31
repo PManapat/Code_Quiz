@@ -24,15 +24,15 @@ $(function () {
     const questions = [
         {
             question: "Javascript is interpreted by?",
-            answers: [" Client", " Server", " Object", " None of the above"],
+            answers: [" Client", " Server", " Object", " Individual"],
         },
         {
-            question: "Using the statement, lets you test for a specific condition?",
-            answers: [" If", " Select", " For", " Switch"],
+            question: "Using which statement, lets you test for a specific condition?",
+            answers: [" If", " Select", " For", " Test"],
         },
         {
             question: "Which of the following best describes Javascript?",
-            answers: [" object oriented scripting language", " low level programming", " compiled scripting language", " script language precompiled in the browser"],
+            answers: [" Object oriented scripting language", " A terrible mistake", " Compiled scripting language", " Script language precompiled in the browser"],
         }];
     //Return a shuffled array:
     function shuffled(arr) {
